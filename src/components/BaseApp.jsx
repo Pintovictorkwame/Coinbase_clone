@@ -3,7 +3,7 @@ const BaseApp = () => {
         <section className="bg-white px-6 py-16 md:px-10 md:py-24 flex flex-col md:flex-row items-center gap-16 font-inter border-t border-gray-50">
             <div className="flex-1 w-full bg-[#F4F6F8] rounded-[40px] overflow-hidden flex items-center justify-center p-8 md:p-12 order-2 md:order-1">
                 <img
-                    src="/src/assets/clone-images/onchain_payment_protocol.png"
+                    src="/assets/clone-images/onchain_payment_protocol.png"
                     alt="Base App"
                     className="w-full max-w-md rounded-[24px] shadow-2xl"
                 />

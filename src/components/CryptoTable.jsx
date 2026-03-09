@@ -1,11 +1,11 @@
 const CryptoTable = () => {
     const assets = [
-        { name: 'Bitcoin', symbol: 'BTC', price: 'GHS 725,126.83', change: '1.02%', isUp: false, icon: 'src/assets/images/bitcoin.svg' },
-        { name: 'Ethereum', symbol: 'ETH', price: 'GHS 20,933.53', change: '2.25%', isUp: false, icon: 'src/assets/images/ethereum.svg' },
-        { name: 'Tether', symbol: 'USDT', price: 'GHS 10.77', change: '0.00%', isUp: true, icon: 'src/assets/images/Tether.png' },
-        { name: 'BNB', symbol: 'BNB', price: 'GHS 6,669.54', change: '1.34%', isUp: false, icon: 'src/assets/images/BNB.png' },
-        { name: 'XRP', symbol: 'XRP', price: 'GHS 14.58', change: '0.94%', isUp: false, icon: 'src/assets/images/XRP.png' },
-        { name: 'USDC', symbol: 'USDC', price: 'GHS 10.77', change: '--', isUp: true, icon: 'src/assets/images/USDC.png' },
+        { name: 'Bitcoin', symbol: 'BTC', price: 'GHS 725,126.83', change: '1.02%', isUp: false, icon: '/assets/images/bitcoin.svg' },
+        { name: 'Ethereum', symbol: 'ETH', price: 'GHS 20,933.53', change: '2.25%', isUp: false, icon: '/assets/images/ethereum.svg' },
+        { name: 'Tether', symbol: 'USDT', price: 'GHS 10.77', change: '0.00%', isUp: true, icon: '/assets/images/Tether.png' },
+        { name: 'BNB', symbol: 'BNB', price: 'GHS 6,669.54', change: '1.34%', isUp: false, icon: '/assets/images/BNB.png' },
+        { name: 'XRP', symbol: 'XRP', price: 'GHS 14.58', change: '0.94%', isUp: false, icon: '/assets/images/XRP.png' },
+        { name: 'USDC', symbol: 'USDC', price: 'GHS 10.77', change: '--', isUp: true, icon: '/assets/images/USDC.png' },
     ];
 
     return (

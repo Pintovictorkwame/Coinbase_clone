@@ -29,26 +29,26 @@ const FeatureSections = () => {
             <FeatureItem
                 title="Zero fees, more potential"
                 description="Experience the power of the world's most trusted exchange with zero fees on select trades for eligible users in the US."
-                imageUrl="/src/assets/clone-images/zero_fees_us.png"
+                imageUrl="/assets/clone-images/zero_fees_us.png"
             />
 
             <FeatureItem
                 title="Professional-grade trading"
                 description="Get more control with Advanced Trade. Access deep liquidity, professional charts, and real-time order books all in one place."
-                imageUrl="/src/assets/clone-images/Advanced.png"
+                imageUrl="/assets/clone-images/Advanced.png"
                 reverse={true}
             />
 
             <FeatureItem
                 title="Solutions for institutions"
                 description="Secure storage, high-level compliance, and a full suite of institutional solutions for businesses and asset managers."
-                imageUrl="/src/assets/clone-images/institutions_upsell.png"
+                imageUrl="/assets/clone-images/institutions_upsell.png"
             />
 
             <FeatureItem
                 title="Bridge to the onchain world"
                 description="Interact with the next generation of the internet. Move money onchain with our simple, secure protocol."
-                imageUrl="/src/assets/clone-images/onchain_payment_protocol.png"
+                imageUrl="/assets/clone-images/onchain_payment_protocol.png"
                 reverse={true}
             />
         </section>

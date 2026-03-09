@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div className="flex items-center gap-8">
                     <Link to="/" onMouseEnter={() => setActiveMenu(null)}>
                         <img
-                            src="/src/assets/clone-images/coinbaseLogoNavigation-4.svg"
+                            src="/assets/clone-images/coinbaseLogoNavigation-4.svg"
                             alt="Coinbase"
                             className="h-10 cursor-pointer"
                         />

@@ -2,17 +2,17 @@ const CryptoBasics = () => {
     const articles = [
         {
             title: 'USDC: The digital dollar for the global crypto economy',
-            image: '/src/assets/images/hero_bg.png',
+            image: '/assets/images/hero_bg.png',
             bgColor: 'bg-[#0A0B0D]'
         },
         {
             title: 'Can crypto really replace your bank account?',
-            image: '/src/assets/clone-images/institutions_upsell.png',
+            image: '/assets/clone-images/institutions_upsell.png',
             bgColor: 'bg-[#1652F0]'
         },
         {
             title: 'When is the best time to invest in crypto?',
-            image: '/src/assets/clone-images/navigation-upsell.png',
+            image: '/assets/clone-images/navigation-upsell.png',
             bgColor: 'bg-[#F4F6F8]'
         }
     ];

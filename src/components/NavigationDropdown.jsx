@@ -168,7 +168,7 @@ const NavigationDropdown = ({ activeMenu }) => {
                     <div className="w-[320px] bg-[#F4F6F8] rounded-[16px] shrink-0 flex flex-col overflow-hidden">
                         {menuData.feature_card.image && (
                             <img
-                                src={`/src/assets/clone-images/${menuData.feature_card.image}`}
+                                src={`/assets/clone-images/${menuData.feature_card.image}`}
                                 alt={menuData.feature_card.title}
                                 className="w-full h-[180px] object-cover"
                             />

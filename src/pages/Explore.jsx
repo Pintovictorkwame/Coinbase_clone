@@ -4,16 +4,16 @@ import { Search } from 'lucide-react';
 
 const Explore = () => {
     const assets = [
-        { name: 'Bitcoin', symbol: 'BTC', price: '$64,126.83', change: '+1.02%', isUp: true, icon: 'src/assets/images/bitcoin.svg', marketCap: '$1.2T', volume: '$32.4B' },
-        { name: 'Ethereum', symbol: 'ETH', price: '$3,433.53', change: '+2.25%', isUp: true, icon: 'src/assets/images/ethereum.svg', marketCap: '$412B', volume: '$15.2B' },
-        { name: 'Tether', symbol: 'USDT', price: '$1.00', change: '0.00%', isUp: true, icon: 'src/assets/images/Tether.png', marketCap: '$104B', volume: '$45.1B' },
-        { name: 'BNB', symbol: 'BNB', price: '$569.54', change: '-1.34%', isUp: false, icon: 'src/assets/images/BNB.png', marketCap: '$85.2B', volume: '$1.8B' },
-        { name: 'Solana', symbol: 'SOL', price: '$145.80', change: '+8.94%', isUp: true, icon: 'src/assets/images/Solana.png', marketCap: '$65.1B', volume: '$4.2B' },
-        { name: 'XRP', symbol: 'XRP', price: '$0.58', change: '-0.94%', isUp: false, icon: 'src/assets/images/XRP.png', marketCap: '$31.8B', volume: '$1.1B' },
-        { name: 'USDC', symbol: 'USDC', price: '$1.00', change: '--', isUp: true, icon: 'src/assets/images/USDC.png', marketCap: '$28.5B', volume: '$4.1B' },
-        { name: 'Cardano', symbol: 'ADA', price: '$0.45', change: '+0.54%', isUp: true, icon: 'src/assets/images/Cardano.png', marketCap: '$16.2B', volume: '$450M' },
-        { name: 'Avalanche', symbol: 'AVAX', price: '$35.20', change: '-2.1%', isUp: false, icon: 'src/assets/images/Avalanche.png', marketCap: '$13.4B', volume: '$320M' },
-        { name: 'Dogecoin', symbol: 'DOGE', price: '$0.15', change: '+4.2%', isUp: true, icon: 'src/assets/images/Dogecoin.png', marketCap: '$21.8B', volume: '$1.5B' }
+        { name: 'Bitcoin', symbol: 'BTC', price: '$64,126.83', change: '+1.02%', isUp: true, icon: '/assets/images/bitcoin.svg', marketCap: '$1.2T', volume: '$32.4B' },
+        { name: 'Ethereum', symbol: 'ETH', price: '$3,433.53', change: '+2.25%', isUp: true, icon: '/assets/images/ethereum.svg', marketCap: '$412B', volume: '$15.2B' },
+        { name: 'Tether', symbol: 'USDT', price: '$1.00', change: '0.00%', isUp: true, icon: '/assets/images/Tether.png', marketCap: '$104B', volume: '$45.1B' },
+        { name: 'BNB', symbol: 'BNB', price: '$569.54', change: '-1.34%', isUp: false, icon: '/assets/images/BNB.png', marketCap: '$85.2B', volume: '$1.8B' },
+        { name: 'Solana', symbol: 'SOL', price: '$145.80', change: '+8.94%', isUp: true, icon: '/assets/images/Solana.png', marketCap: '$65.1B', volume: '$4.2B' },
+        { name: 'XRP', symbol: 'XRP', price: '$0.58', change: '-0.94%', isUp: false, icon: '/assets/images/XRP.png', marketCap: '$31.8B', volume: '$1.1B' },
+        { name: 'USDC', symbol: 'USDC', price: '$1.00', change: '--', isUp: true, icon: '/assets/images/USDC.png', marketCap: '$28.5B', volume: '$4.1B' },
+        { name: 'Cardano', symbol: 'ADA', price: '$0.45', change: '+0.54%', isUp: true, icon: '/assets/images/Cardano.png', marketCap: '$16.2B', volume: '$450M' },
+        { name: 'Avalanche', symbol: 'AVAX', price: '$35.20', change: '-2.1%', isUp: false, icon: '/assets/images/Avalanche.png', marketCap: '$13.4B', volume: '$320M' },
+        { name: 'Dogecoin', symbol: 'DOGE', price: '$0.15', change: '+4.2%', isUp: true, icon: '/assets/images/Dogecoin.png', marketCap: '$21.8B', volume: '$1.5B' }
     ];
 
     return (

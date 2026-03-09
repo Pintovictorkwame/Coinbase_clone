@@ -29,7 +29,7 @@ const TakeControl = () => {
                         <div className="absolute w-[80%] h-[80%] rounded-full border border-gray-100"></div>
                         <div className="absolute w-[60%] h-[60%] rounded-full border border-gray-200"></div>
                         <img
-                            src="/src/assets/clone-images/image.png"
+                            src="/assets/clone-images/image.png"
                             alt="Crypto Assets"
                             className="w-full h-auto z-10 scale-110 md:scale-110 drop-shadow-2xl"
                         />

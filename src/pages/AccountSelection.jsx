@@ -7,21 +7,21 @@ const AccountSelection = () => {
             id: 'personal',
             title: 'Personal',
             description: 'Trade crypto as an individual.',
-            icon: <img src="/src/assets/clone-images/personal.svg" alt="Personal" className="w-6 h-6" />,
+            icon: <img src="/assets/clone-images/personal.svg" alt="Personal" className="w-6 h-6" />,
             path: '/signup/form'
         },
         {
             id: 'business',
             title: 'Business',
             description: 'Manage teams and portfolios, accept crypto payments, access APIs, and more',
-            icon: <img src="/src/assets/clone-images/business.svg" alt="Business" className="w-6 h-6" />,
+            icon: <img src="/assets/clone-images/business.svg" alt="Business" className="w-6 h-6" />,
             path: '/signup/form'
         },
         {
             id: 'developer',
             title: 'Developer',
             description: 'Build onchain using developer tooling.',
-            icon: <img src="/src/assets/clone-images/developer.svg" alt="Developer" className="w-6 h-6" />,
+            icon: <img src="/assets/clone-images/developer.svg" alt="Developer" className="w-6 h-6" />,
             path: '/signup/form'
         }
     ];
@@ -32,7 +32,7 @@ const AccountSelection = () => {
                 {/* Logo */}
                 <Link to="/" className="mb-12 self-start">
                     <img
-                        src="/src/assets/clone-images/coinbaseLogoNavigation-4.svg"
+                        src="/assets/clone-images/coinbaseLogoNavigation-4.svg"
                         alt="Coinbase"
                         className="h-8 md:h-10 invert brightness-0"
                     />

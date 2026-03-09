@@ -18,7 +18,7 @@ const CoinbaseOne = () => {
             </div>
             <div className="flex-1 w-full bg-[#F4F6F8] rounded-[40px] overflow-hidden flex items-center justify-center p-8 md:p-12">
                 <img
-                    src="/src/assets/clone-images/zero_fees_us.png"
+                    src="/assets/clone-images/zero_fees_us.png"
                     alt="Coinbase One App View"
                     className="w-full max-w-md rounded-[24px] shadow-2xl"
                 />

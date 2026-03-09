@@ -6,7 +6,7 @@ const Hero = () => {
             <div className="flex-1 order-2 md:order-1 relative">
                 <div className="rounded-[40px] overflow-hidden shadow-2xl shadow-blue-100/30">
                     <img
-                        src="/src/assets/clone-images/hero__4_.avif"
+                        src="/assets/clone-images/hero__4_.avif"
                         alt="Coinbase App"
                         className="w-full h-auto object-cover"
                     />

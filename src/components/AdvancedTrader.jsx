@@ -3,7 +3,7 @@ const AdvancedTrader = () => {
         <section className="bg-white px-6 py-16 md:px-10 md:py-24 flex flex-col md:flex-row items-center gap-16 font-inter">
             <div className="flex-1 w-full bg-[#0A0B0D] rounded-[40px] p-6 md:p-12 flex items-center justify-center">
                 <img
-                    src="/src/assets/clone-images/Advanced.png"
+                    src="/assets/clone-images/Advanced.png"
                     alt="Advanced Trading Interface"
                     className="w-full h-auto drop-shadow-2xl"
                 />

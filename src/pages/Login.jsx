@@ -7,7 +7,7 @@ const Login = () => {
                 {/* Logo */}
                 <Link to="/" className="mb-12">
                     <img
-                        src="/src/assets/clone-images/coinbaseLogoNavigation-4.svg"
+                        src="/assets/clone-images/coinbaseLogoNavigation-4.svg"
                         alt="Coinbase"
                         className="h-8 md:h-10 invert brightness-0"
                     />
