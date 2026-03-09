@@ -17,14 +17,14 @@ const NavigationDropdown = ({ activeMenu }) => {
                     {menuData.items && (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-6">
                             {menuData.items.map((item) => (
-                                <Link key={item.title} to="/explore" className="block group cursor-pointer hover:bg-gray-50 p-2 rounded-lg -ml-2 transition-colors">
+                                <a key={item.title} href={item.href || "#"} target={item.href?.startsWith('http') ? "_blank" : undefined} rel={item.href?.startsWith('http') ? "noopener noreferrer" : undefined} className="block group cursor-pointer hover:bg-gray-50 p-2 rounded-lg -ml-2 transition-colors">
                                     <div className="font-semibold text-[#0A0B0D] text-[15px] group-hover:text-[#1652F0] transition-colors">
                                         {item.title}
                                     </div>
                                     <div className="text-[#5B616E] text-[13px] mt-1 leading-snug">
                                         {item.description}
                                     </div>
-                                </Link>
+                                </a>
                             ))}
                         </div>
                     )}
@@ -39,14 +39,14 @@ const NavigationDropdown = ({ activeMenu }) => {
                                     </h3>
                                     <div className="flex flex-col gap-5">
                                         {section.items.map((item) => (
-                                            <Link key={item.title} to="/explore" className="block group cursor-pointer hover:bg-gray-50 p-2 rounded-lg -ml-2 transition-colors">
+                                            <a key={item.title} href={item.href || "#"} target={item.href?.startsWith('http') ? "_blank" : undefined} rel={item.href?.startsWith('http') ? "noopener noreferrer" : undefined} className="block group cursor-pointer hover:bg-gray-50 p-2 rounded-lg -ml-2 transition-colors">
                                                 <div className="font-semibold text-[#0A0B0D] text-[15px] group-hover:text-[#1652F0] transition-colors flex items-center gap-2">
                                                     {item.title}
                                                 </div>
                                                 <div className="text-[#5B616E] text-[13px] mt-1 leading-snug">
                                                     {item.description}
                                                 </div>
-                                            </Link>
+                                            </a>
                                         ))}
                                     </div>
                                 </div>
@@ -75,9 +75,9 @@ const NavigationDropdown = ({ activeMenu }) => {
                                 </p>
                             </div>
 
-                            <Link to={menuData.feature_card.path || "/explore"} className="mt-8 text-[#1652F0] font-bold text-[15px] flex items-center gap-2 hover:gap-3 transition-all group">
+                            <a href={menuData.feature_card.path || "#"} target={menuData.feature_card.path?.startsWith('http') ? "_blank" : undefined} rel={menuData.feature_card.path?.startsWith('http') ? "noopener noreferrer" : undefined} className="mt-8 text-[#1652F0] font-bold text-[15px] flex items-center gap-2 hover:gap-3 transition-all group">
                                 {menuData.feature_card.link} <span className="group-hover:translate-x-1 transition-transform">→</span>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 )}

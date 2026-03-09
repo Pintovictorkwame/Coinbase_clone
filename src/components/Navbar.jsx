@@ -107,7 +107,7 @@ const Navbar = () => {
                                 <div className={`overflow-hidden transition-all duration-300 ${expandedMobileMenu === menuName ? 'max-h-[1500px] opacity-100 mb-6' : 'max-h-0 opacity-0'}`}>
                                     <div className="flex flex-col gap-5 pl-4 pt-2">
                                         {menus[menuName].items && menus[menuName].items.map((item, idx) => (
-                                            <a key={idx} href="#" className="block group" onClick={() => setIsMobileMenuOpen(false)}>
+                                            <a key={idx} href={item.href || "#"} target={item.href?.startsWith('http') ? "_blank" : undefined} rel={item.href?.startsWith('http') ? "noopener noreferrer" : undefined} className="block group" onClick={() => setIsMobileMenuOpen(false)}>
                                                 <div className="text-[17px] font-semibold text-[#0A0B0D] group-hover:text-[#0052FF] transition-colors">{item.title}</div>
                                                 <div className="text-[15px] text-[#5B616E] mt-1">{item.description}</div>
                                             </a>
@@ -117,7 +117,7 @@ const Navbar = () => {
                                                 <div className="text-[13px] font-bold text-[#5B616E] tracking-[0.1em] uppercase mb-4">{section.title}</div>
                                                 <div className="flex flex-col gap-5">
                                                     {section.items.map((item, idx) => (
-                                                        <a key={idx} href="#" className="block group" onClick={() => setIsMobileMenuOpen(false)}>
+                                                        <a key={idx} href={item.href || "#"} target={item.href?.startsWith('http') ? "_blank" : undefined} rel={item.href?.startsWith('http') ? "noopener noreferrer" : undefined} className="block group" onClick={() => setIsMobileMenuOpen(false)}>
                                                             <div className="text-[17px] font-semibold text-[#0A0B0D] group-hover:text-[#0052FF] transition-colors">{item.title}</div>
                                                             <div className="text-[15px] text-[#5B616E] mt-1">{item.description}</div>
                                                         </a>
