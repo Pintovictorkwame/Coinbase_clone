@@ -13,10 +13,10 @@ const Hero = () => {
                 </div>
             </div>
             <div className="flex-1 max-w-2xl text-left order-1 md:order-2">
-                <h1 className="text-[20px] md:text-[80px] text-[#0A0B0D] tracking-tighter leading-[0.95] mb-8">
+                <h1 className="text-[48px] md:text-[80px] text-[#0A0B0D] tracking-tighter leading-[0.95] mb-6">
                     The future of <br /> finance is here.
                 </h1>
-                <p className="text-[8px] md:text-[17px] text-[#0A0B0D] mb-12 font-medium max-w-md opacity-70 leading-relaxed">
+                <p className="text-[18px] md:text-[17px] text-[#0A0B0D] mb-10 font-medium max-w-md opacity-70 leading-relaxed">
                     Trade crypto and more on a platform you can trust.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 items-center w-full max-w-md">
